@@ -1,0 +1,84 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+div {
+    background-color: blue;
+}
+
+
+/* ===========DIV NAVBAR =========== */
+.container-navbar {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    height: 10vh;
+}
+
+.ul-navbar {
+    height: 5px;
+    justify-content: center;
+    /* supaya di tengah secara horizontal */
+    align-items: center;
+    /* supaya di tengah secara vertikal */
+    padding: 25px;
+    display: flex;
+    /* mengurutkan kotak kotak secara horizontal */
+    
+}
+
+.li-navbar {
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    /* jarak antara kotak kotak */
+    color: black;
+    background-color: white;
+}
+
+/*  ===========DIV NAVBAR SELESAI =========== */
+
+
+/* ==========CONTAINT 1========== */
+.container-content {
+    background-color: black;
+    justify-content: center;
+    /* supaya di tengah secara horizontal */
+    align-items: center;
+    /* supaya di tengah secara vertikal */
+    display: flex;
+    /* mengurutkan kotak kotak secara horizontal */
+    height: 80vh;
+}
+
+.img-containt {
+    width: 50%;
+    height: 50%;
+    padding : 0px;
+    margin : 0px;
+}
+
+/* ==========CONTAINT 1 SELESAI==========*/
+
+
+
+
+/* ==========FOOTER========== */
+.container-footer{
+    background-color: crimson ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.h3-footer{
+    font-size: 40px;
+}
+
+/*==========FOOTER SELESAI==========  */
