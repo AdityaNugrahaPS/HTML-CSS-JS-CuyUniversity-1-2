@@ -99,6 +99,12 @@ div {
 -webkit-box-shadow: 15px 16px 41px 0px rgba(0,0,0,0.63);
 -moz-box-shadow: 15px 16px 41px 0px rgba(0,0,0,0.63);
 }
+
+#biodata{
+    background: red;
+    width: 500px;
+    height: 500px;
+}
 /* ==========CONTAINT 1 SELESAI==========*/
 
 
